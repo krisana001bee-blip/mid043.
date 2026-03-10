@@ -1,0 +1,98 @@
+/* พื้นหลังเว็บ */
+
+body{
+font-family: Arial, sans-serif;
+background-color:#f5f5f5;
+margin:0;
+padding:0;
+}
+
+
+/* Navbar */
+
+.navbar{
+box-shadow:0 2px 5px rgba(0,0,0,0.2);
+
+}
+
+
+/* รูปโปรไฟล์ */
+
+.profile-img{
+width:280px;
+height:280px;
+object-fit:cover;
+border-radius:50%;
+border:5px solid #ddd;
+}
+
+
+/* ชื่อ */
+
+.name{
+font-size:36px;
+font-weight:bold;
+margin-top:10px;
+}
+
+
+/* สาขา */
+
+.major{
+font-size:20px;
+color:#555;
+}
+
+
+/* จุดเด่น */
+
+.skill{
+font-size:18px;
+color:#777;
+}
+
+
+/* ส่วนเกี่ยวกับฉัน */
+
+.about{
+max-width:600px;
+margin:auto;
+font-size:16px;
+line-height:1.7;
+color:#333;
+}
+
+
+/* การ์ดโปรเจกต์ */
+
+.card{
+border:none;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+
+
+/* รูปโปรเจกต์ */
+
+.card img{
+height:200px;
+object-fit:cover;
+}
+
+
+/* ตาราง */
+
+table{
+background:white;
+}
+
+
+/* Skills list */
+
+.list-group-item{
+font-size:16px;
+}
